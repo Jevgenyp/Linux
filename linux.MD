@@ -34,18 +34,25 @@ Linux - Выполнить в командной строке
 8)   Добавить произвольную задачу для выполнения каждые 3 минуты (Например, запись в текстовый файл чего-то или копирование из каталога А в каталог Б).
 
 # Команды в Терминале Linux
+
 mkdir "ToysForSchool"
+
 mkdir "ToysForPreschool"
 
 cd "ToysForSchool"
+
 touch "Robots" "Constructor" "TableGames"
+
 cd 
 
 cd "ToysForPreschool"
+
 touch "TeddyBears" "Dolls" "Cars"
+
 cd 
 
 mv "ToysForSchool" "ToysName"
+
 mv "ToysForPreschool" "ToysName"
 
 mv "ToysName" "Toys"
@@ -53,8 +60,11 @@ mv "ToysName" "Toys"
 ls "Toys"
 
 snap list
+
 sudo snap remove  core22
+
 sudo snap install core22
+
 
 
 crontab -e
